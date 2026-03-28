@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Crystal Clear Eye Clinic</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a class="logo" href="#">
+    <img src="img/eye clinic.jpeg" alt="Crystal Clear Eye Clinic Logo" class="logo-icon">
+    <div class="logo-text">
+      <span class="logo-main">Crystal Clear</span>
+      <span class="logo-sub">Eye Clinic</span>
+    </div>
+  </a>
+  <ul class="nav-links">
+    <li><a href="#services">Services</a></li>
+    <li><a href="#optical">Optical</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <button class="nav-cta" onclick="document.getElementById('appointment').scrollIntoView({behavior:'smooth'})">Book Appointment</button>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-content">
+    <div class="hero-badge"><span>🏥</span> Ghana's Premier Eye Care Centre</div>
+    <h1>See the World with <em>Crystal</em> Clear</h1>
+    <p>Provide arrange of comprehensive eye care services designed to ensure optimal vision and ocular health.</p>
+    <div class="hero-btns">
+      <a href="#appointment" class="btn-primary">Book Appointment →</a>
+      <a href="#services" class="btn-outline">Our Services</a>
+    </div>
+  </div>
+
+  <div class="hero-visual">
+    <div class="eye-graphic">
+      <div class="eye-ring"></div>
+      <div class="eye-ring"></div>
+      <div class="eye-ring"></div>
+      <div class="eye-center">👁️</div>
+    </div>
+  </div>
+</section>
+
+<!-- STATS -->
+<div class="stats" class="stat-item reveal">
+  <div class="stat-item reveal"><div class="stat-num">5,000+</div><div class="stat-label">Patients Served</div></div>
+  <div class="stat-item reveal"><div class="stat-num">15+</div><div class="stat-label">Years of Excellence</div></div>
+  <div class="stat-item reveal"><div class="stat-num">98%</div><div class="stat-label">Patient Satisfaction</div></div>
+  <div class="stat-item reveal"><div class="stat-num">6</div><div class="stat-label">Specialist Services</div></div>
+</div>
+
+<!-- SERVICES -->
+<section class="services" id="services" class="stat-item reveal">
+  <div class="services-header reveal">
+    <p class="section-label">What We Offer</p>
+    <h2 class="section-title">Our Specialist Eye Care Services</h2>
+    <p class="section-sub">Trusted diagnostics and personalised care for all your vision needs, under one roof.</p>
+  </div>
+  <div class="services-grid">
+
+    <div class="service-card reveal">
+      <div class="service-icon">🔬</div>
+      <h3>Comprehensive Eye Examination</h3>
+      <p>A full assessment of your visual health — checking acuity, eye muscle function, intraocular pressure, and retinal health using advanced diagnostic tools.</p>
+      <a href="#appointment" class="service-link">Book now →</a>
+    </div>
+
+    <div class="service-card reveal">
+      <div class="service-icon">📊</div>
+      <h3>Visual Field Test</h3>
+      <p>Precise mapping of your complete field of vision to detect and monitor conditions like glaucoma, optic nerve damage, and neurological disorders.</p>
+      <a href="#appointment" class="service-link">Book now →</a>
+    </div>
+
+    <div class="service-card reveal">
+      <div class="service-icon">🦯</div>
+      <h3>Low Vision Management</h3>
+      <p>Specialised evaluation and rehabilitation for patients with permanent vision loss, helping maximise remaining sight through devices and training.</p>
+      <a href="#appointment" class="service-link">Book now →</a>
+    </div>
+
+    <div class="service-card reveal">
+      <div class="service-icon">💧</div>
+      <h3>Tonometry</h3>
+      <p>Accurate intraocular pressure measurement to screen for and manage glaucoma — a leading cause of irreversible blindness if left undetected.</p>
+      <a href="#appointment" class="service-link">Book now →</a>
+    </div>
+
+    <div class="service-card reveal">
+      <div class="service-icon">👓</div>
+      <h3>Optical Services</h3>
+      <p>An extensive collection of prescription lenses and designer frames for every face, lifestyle, and budget — fitted and dispensed by our certified opticians.</p>
+      <a href="#optical" class="service-link">View collection →</a>
+    </div>
+
+    <div class="service-card reveal service-card-special">
+      <div class="service-icon service-icon-special">📅</div>
+      <h3>Ready to see clearly?</h3>
+      <p>Our team of experienced optometrists and ophthalmologists are here for you. Schedule your appointment today.</p>
+      <a href="#appointment" class="btn-primary service-link-special">Book Now →</a>
+    </div>
+
+  </div>
+</section>
+
+<!-- WHY US -->
+<section class="why" id="about" class="stat-item reveal">
+  <div class="why-visual reveal">
+    <div class="why-img-bg">🔭</div>
+    <div class="why-badge">
+      <div class="why-badge-num">★ 4.9</div>
+      <div class="why-badge-txt">Patient Rating</div>
+    </div>
+  </div>
+  <div class="why-content reveal">
+    <p class="section-label">Why Choose Us</p>
+    <h2 class="section-title">Eye Care You Can Trust, Every Visit</h2>
+    <p class="section-sub">At Crystal Clear Eye Clinic, we combine advanced technology with genuine care. Your vision is our purpose.</p>
+    <div class="why-features">
+      <div class="why-feat">
+        <div class="why-feat-icon">🩺</div>
+        <div><h4>Expert Optometrists</h4><p>Certified specialists with years of clinical experience.</p></div>
+      </div>
+      <div class="why-feat">
+        <div class="why-feat-icon">⚡</div>
+        <div><h4>Modern Equipment</h4><p>Latest diagnostic tools for precise, reliable results.</p></div>
+      </div>
+      <div class="why-feat">
+        <div class="why-feat-icon">💙</div>
+        <div><h4>Patient-Centred</h4><p>We listen, explain, and tailor care to your needs.</p></div>
+      </div>
+      <div class="why-feat">
+        <div class="why-feat-icon">🕐</div>
+        <div><h4>Flexible Hours</h4><p>Convenient scheduling including weekends.</p></div>
+      </div>
+      <div class="why-feat">
+        <div class="why-feat-icon">🏆</div>
+        <div><h4>Trusted by Families</h4><p>Serving patients of all ages, from children to seniors.</p></div>
+      </div>
+      <div class="why-feat">
+        <div class="why-feat-icon">💊</div>
+        <div><h4>Holistic Eye Health</h4><p>Diagnosis, treatment, and long-term eye wellness.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- OPTICAL -->
+<section class="optical" id="optical" class="stat-item reveal">
+  <p class="section-label optical-label">Optical Services</p>
+  <h2 class="section-title reveal">Premium Lenses & Designer Frames</h2>
+  <p class="section-sub reveal">Explore our curated collection — whether you need everyday vision correction, sun protection, or a fashion statement.</p>
+
+  <div class="lens-grid">
+    <div class="lens-card reveal">
+      <div class="icon">🔵</div>
+      <h4>Single Vision Lenses</h4>
+      <p>Clear, lightweight lenses for near or distance correction in high-index materials.</p>
+    </div>
+    <div class="lens-card reveal">
+      <div class="icon">🌀</div>
+      <h4>Progressive Lenses</h4>
+      <p>Seamless multi-focal lenses for presbyopia — no visible line, natural vision.</p>
+    </div>
+    <div class="lens-card reveal">
+      <div class="icon">☀️</div>
+      <h4>Photochromic Lenses</h4>
+      <p>Automatically darken in sunlight and clear indoors for all-day comfort.</p>
+    </div>
+    <div class="lens-card reveal">
+      <div class="icon">💻</div>
+      <h4>Blue Light Blocking</h4>
+      <p>Protect your eyes from digital strain with anti-blue light coating.</p>
+    </div>
+    <div class="lens-card reveal">
+      <div class="icon">🕶️</div>
+      <h4>Designer Frames</h4>
+      <p>Premium international brands and local designer collections to suit every face shape.</p>
+    </div>
+    <div class="lens-card reveal">
+      <div class="icon">👁️</div>
+      <h4>Contact Lenses</h4>
+      <p>Daily, monthly, and toric contact lenses fitted and supplied by our opticians.</p>
+    </div>
+  </div>
+
+  <a href="#appointment" class="btn-primary reveal optical-shop-link">Visit Our Optical Shop →</a>
+</section>
+
+
+<!-- APPOINTMENT -->
+<section class="appointment" id="appointment">
+  <div class="appt-content reveal">
+    <p class="section-label">Book an Appointment</p>
+    <h2 class="section-title">Your Journey to Better Vision Starts Here</h2>
+    <p class="section-sub">Don't wait for your vision to decline. A quick check-up today could protect your sight for life.</p>
+    <br/>
+    <div class="contact-item">
+      <div class="contact-ico">📞</div>
+      <div><h4>Call Us</h4><p>024 047 4341<br/>024 779 8673<br/>Mon – Sat: 8am – 6pm</p></div>
+    </div>
+    <div class="contact-item">
+      <div class="contact-ico">📧</div>
+      <div><h4>Email</h4><p>oseis@gmail.com</p></div>
+    </div>
+  </div>
+  <div class="appt-form reveal">
+    <h3>Request an Appointment</h3>
+    <div class="form-row">
+      <div class="form-group">
+        <label>First Name</label>
+        <input type="text" placeholder="Kwame" />
+      </div>
+      <div class="form-group">
+        <label>Last Name</label>
+        <input type="text" placeholder="Asante" />
+      </div>
+    </div>
+    <div class="form-group">
+      <label>Phone Number</label>
+      <input type="tel" placeholder="e.g., 024 047 4341" />
+    </div>
+    <div class="form-group">
+      <label for="apptService">Service Needed</label>
+      <select id="apptService" class="form-select">
+        <option value="">Select a service…</option>
+        <option>Comprehensive Eye Examination</option>
+        <option>Visual Field Test</option>
+        <option>Low Vision Management</option>
+        <option>Tonometry</option>
+        <option>Optical Services / Frame Fitting</option>
+      </select>
+    </div>
+      <div class="form-group">
+        <label for="apptDate">Preferred Date</label>
+        <input id="apptDate" type="date" class="form-input-date" />
+      </div>
+      <div class="form-group">
+        <label for="apptTime">Preferred Time</label>
+        <select id="apptTime" class="form-select">
+          <option>8:00 AM</option><option>9:00 AM</option><option>10:00 AM</option>
+          <option>11:00 AM</option><option>12:00 PM</option><option>2:00 PM</option>
+          <option>3:00 PM</option><option>4:00 PM</option><option>5:00 PM</option>
+        </select>
+      </div>
+    </div>
+    <button class="btn-primary appt-btn-full" onclick="alert('Thank you! We will confirm your appointment shortly.')">Confirm Appointment ✓</button>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact" class="reveal">
+  <p class="section-label">Get In Touch</p>
+  <h2 class="section-title reveal">Find Us</h2>
+  <div class="contact-grid">
+    <div class="contact-info reveal">
+      <div class="contact-item">
+        <div class="contact-ico">📍</div>
+        <div><h4>Our Locations</h4><p>Tafo Pankrono near Old ASH FM<br/>Kumasi, Ghana</p></div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-ico">🕐</div>
+        <div><h4>Opening Hours</h4><p>Monday – Friday: 8:00 AM – 6:00 PM<br/>Saturday: 9:00 AM – 4:00 PM<br/>Sunday: Closed</p></div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-ico">📞</div>
+        <div><h4>Phone</h4><p>024 047 4341<br/>024 779 8673</p></div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-ico">📧</div>
+        <div><h4>Email</h4><p>mailto:info@crystalcleareyeclinic.com</p></div>
+      </div>
+    </div>
+    <div class="map-placeholder reveal">🗺️</div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-top">
+    <div class="footer-brand">
+      <div class="logo">
+        <img src="img/eye clinic.jpeg" alt="Crystal Clear Eye Clinic Logo" class="logo-icon">
+        <div class="logo-text">
+          <span class="logo-main">Crystal Clear</span>
+          <span class="logo-sub">Eye Clinic</span>
+        </div>
+      </div>
+      <p>Dedicated to preserving and enhancing your vision with compassionate, expert care. Because life is better when you see it clearly.</p>
+    </div>
+    <div class="footer-col">
+      <h5>Services</h5>
+      <ul>
+        <li><a href="#">Eye Examination</a></li>
+        <li><a href="#">Visual Field Test</a></li>
+        <li><a href="#">Low Vision</a></li>
+        <li><a href="#">Tonometry</a></li>
+        <li><a href="#">Optical Services</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h5>Clinic</h5>
+      <ul>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Our Team</a></li>
+        <li><a href="#">Patient Reviews</a></li>
+        <li><a href="#">FAQ</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h5>Connect</h5>
+      <ul>
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">Instagram</a></li>
+        <li><a href="#">WhatsApp</a></li>
+        <li><a href="#">Book Online</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    &copy; 2025 Crystal Clear Eye Clinic. All rights reserved. | Designed with 💙 for better vision.
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
