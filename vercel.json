@@ -1,5 +1,18 @@
 {
   "buildCommand": "echo 'Static site - no build required'",
   "outputDirectory": "Eye_clinic_G6",
-  "public": true
+  "public": true,
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "headers": [
+    {
+      "source": "/img/:path*",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
+      ]
+    }
+  ]
 }
